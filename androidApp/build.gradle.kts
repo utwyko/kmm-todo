@@ -10,7 +10,7 @@ val composeVersion = "1.0.0-beta04"
 val viewModelComposeVersion = "1.0.0-alpha04"
 val activityVersion = "1.3.0-alpha06"
 val appCompatVersion = "1.3.0-rc01"
-val coreKtxVersion = "1.6.0-alpha01"
+val coreKtxVersion = "1.6.0-alpha02"
 
 dependencies {
     implementation(project(":shared"))
