@@ -3,36 +3,4 @@ updates:
 - package-ecosystem: gradle
   directory: "/"
   schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: org.jetbrains.kotlin:kotlin-gradle-plugin
-    versions:
-    - 1.4.32
-  - dependency-name: androidx.lifecycle:lifecycle-viewmodel-compose
-    versions:
-    - 1.0.0-alpha04
-  - dependency-name: androidx.compose.runtime:runtime-livedata
-    versions:
-    - 1.0.0-beta04
-  - dependency-name: androidx.compose.material:material-icons-extended
-    versions:
-    - 1.0.0-beta04
-  - dependency-name: androidx.compose.material:material
-    versions:
-    - 1.0.0-beta04
-  - dependency-name: androidx.compose.foundation:foundation
-    versions:
-    - 1.0.0-beta04
-  - dependency-name: androidx.compose.ui:ui-tooling
-    versions:
-    - 1.0.0-beta04
-  - dependency-name: androidx.compose.ui:ui
-    versions:
-    - 1.0.0-beta04
-  - dependency-name: androidx.activity:activity-compose
-    versions:
-    - 1.3.0-alpha06
-  - dependency-name: androidx.appcompat:appcompat
-    versions:
-    - 1.3.0-rc01
+    interval: weekly
